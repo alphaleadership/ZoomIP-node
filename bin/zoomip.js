@@ -70,6 +70,6 @@ else{
  }
 
  
- var ip =  new getip
- ip.requests(l)
+
   
+module.exports = getip

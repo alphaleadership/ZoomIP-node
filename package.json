@@ -1,8 +1,8 @@
 {
   "name": "zoomip",
   "version": "1.0.0",
-  "description": "",
-  "main": "zoomip.js",
+  "description": "[!] Node js must be installed !",
+  "main": "bin/zoomip.js",
   "dependencies": {
     "chalk": "^4.1.0",
     "request": "^2.88.2",
@@ -10,11 +10,19 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"E"
   },
   "bin": {
-    "zoomip": "./bin/zoomip.js"
+    "zoomip": "bin/index.js"
   },
-  "author": "Ghostfighter50",
-  "license": "ISC"
+  "author": "jaeger_program",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alphaleadership/ZoomIP-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alphaleadership/ZoomIP-node/issues"
+  },
+  "homepage": "https://github.com/alphaleadership/ZoomIP-node#readme"
 }
